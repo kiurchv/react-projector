@@ -1,11 +1,12 @@
 {
   "name": "react-projector",
-  "version": "0.0.0",
+  "version": "1.0.0-beta.1",
   "description": "",
-  "author":
-    "Myroslav Kiurchev <kiurchv@gmail.com> (https://github.com/kiurchv/)",
+  "author": "Myroslav Kiurchev <kiurchv@gmail.com> (https://github.com/kiurchv/)",
   "license": "MIT",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "main": "lib/index.js",
   "repository": "https://github.com/kiurchv/react-projector",
   "scripts": {
