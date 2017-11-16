@@ -1,0 +1,28 @@
+{
+  "name": "react-projector-responsive",
+  "version": "0.0.0",
+  "description": "",
+  "author":
+    "Myroslav Kiurchev <kiurchv@gmail.com> (https://github.com/kiurchv/)",
+  "license": "MIT",
+  "files": ["lib"],
+  "main": "lib/index.js",
+  "repository": "https://github.com/kiurchv/react-projector",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "clean": "rimraf lib",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "resize-observer-polyfill": "^1.4.2"
+  },
+  "peerDependencies": {
+    "react": "~0.14.9 || ^15.3.0 || ^16.0.0",
+    "react-projector": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "rimraf": "^2.6.2"
+  }
+}
